@@ -1,0 +1,133 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.edf
+*.gz
+*.dat
+*.csv
+*.h5
+*.hdf5
+*.mat
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.crdownload
+*.fif
+*.set
+*.vhdr
+*.vmrk
+*.eeg
+*.bdf
+*.cnt
+*.mff
+*.raw
+*.npy
+
+# Dataset directories
+physionet-data/
+chb-mit-epilepsy/
+alcoholism-eeg-real/
+openneuro-data/
+eeg-motor-movement/
+uci-eeg-database/
+clinical-datasets/
+training-data/
+validation-data/
+test-data/
+*-dataset/
+*-data/
+
+# Model files
+models/
+*.joblib
+*.pkl
+*.h5
+*.pth
+
+# Logs
+*.log
+logs/
+
+# Reports and outputs
+reports/
+plots/
+*.png
+*.pdf
+*.html
+
+# Security and sensitive data
+secure_data/
+encrypted/
+keys/
+*.key
+*.pem
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Clinical validation outputs
+clinical_validation_*.md
+clinical_validation_*.png
+
+# Large training files (anything over typical code size)
+**/large_*
+**/training_*
+**/dataset_*
+**/*_large.*
+**/*_dataset.*
+**/*_training.*
+
+# Specific large data patterns
+subjects_*.json
+features_*.json
+results_*.json
+*_features.csv
+*_results.csv
+*_subjects.csv
