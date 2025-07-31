@@ -89,8 +89,8 @@ models/
 *.log
 logs/
 
-# Reports and outputs
-reports/
+# Reports and outputs (but allow ctentropy_platform/reports/ module)
+/reports/
 plots/
 *.png
 *.pdf
@@ -131,3 +131,42 @@ results_*.json
 *_features.csv
 *_results.csv
 *_subjects.csv
+
+# Development and testing files (keep local, not in GitHub)
+temp_entropy_plot_*.png
+clinical_validation.log
+ctentropy_clinical_system.log
+ctentropy_clinical.log
+ctentropy_security.log
+*.log
+
+# Development scripts (keep local)
+fix_all_bugs.py
+simple_real_data_test.py
+setup_openneuro_training.py
+research_alcoholism_datasets.py
+find_clinical_datasets.py
+compare_healthy_vs_epilepsy.py
+
+# Training and testing scripts (keep local)
+train_*.py
+test_alcoholism_detection.py
+test_openneuro_api.py
+
+# Download and setup scripts (keep local)
+download_*.ps1
+*.html
+
+# Development artifacts
+Figure_*.png
+offcial*.png
+*.crdownload
+
+# Kiro IDE files
+.kiro/
+
+# Development documentation (keep local)
+CTEntropy_*Degeneration.md
+
+# HIPAA salt file (security - keep local)
+.hipaa_salt
