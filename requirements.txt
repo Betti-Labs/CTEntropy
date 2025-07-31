@@ -8,15 +8,3 @@ mne>=1.0.0
 reportlab>=3.6.0
 cryptography>=3.4.0
 joblib>=1.1.0
-pathlib2>=2.3.0
-datetime
-logging
-warnings
-hashlib
-base64
-json
-os
-sys
-re
-time
-random
